@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <h1>tuyguy</h1>
         <Routes>
           {puclicRoutes.map((route, index) => {
             const Page = route.component
@@ -28,7 +29,6 @@ function App() {
         </Routes>
       </div>
     </Router>
-
   );
 }
 
